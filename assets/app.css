@@ -1,0 +1,4 @@
+/* Jqueryとの比較用 */
+ul li.active {
+  color: pink !important;
+}
