@@ -1,0 +1,44 @@
+:root {
+  /* font */
+  --color-default: #000000;
+
+  /* stroke */
+  --color-stroke-default: var(--color-default);
+
+  /* background */
+  --color-background-white: var(--color-default);
+
+  /* shadow */
+  --color-shadow-black: var(--color-default);
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--color-default);
+}
+
+a {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  padding: 0 40px;
+}
+
+/* @media screen and (max-width: 1024px) {
+  section {
+    padding: 0 20px;
+  }
+} */
+
+@media screen and (max-width: 760px) {
+  section {
+    padding: 0 20px;
+  }
+}
